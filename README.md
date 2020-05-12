@@ -17,4 +17,5 @@ repos:
 
 ## Hooks list
 
+* ``go-test-mod-cover`` - executes ``go test`` with ``-cover`` parameter.
 * ``golangci-lint-mod`` - executes ``golangci-lint`` in module mode (``GO111MODULES=on``)
