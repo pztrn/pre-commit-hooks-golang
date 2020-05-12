@@ -2,4 +2,4 @@
 
 export GO111MODULE=on
 
-$(which golangci-lint) run
+$(which golangci-lint) run ./...
