@@ -1,0 +1,6 @@
+- id: golangci-lint-mod
+  name: 'golangci-lint-mod'
+  entry: 'golangci-lint-mod.sh'
+  language: 'script'
+  description: 'Run golangci-lint in module mode (GO111MODULE=on)'
+  pass_filenames: false
