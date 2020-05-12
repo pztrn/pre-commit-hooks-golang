@@ -1,3 +1,9 @@
+- id: go-test-mod-cover
+  name: 'go-test-mod-cover'
+  entry: 'go-test-mod-cover.sh'
+  language: 'script'
+  description: 'Run go test in module mode (GO111MODULE=on) with coverage report'
+  pass_filenames: false
 - id: golangci-lint-mod
   name: 'golangci-lint-mod'
   entry: 'golangci-lint-mod.sh'
